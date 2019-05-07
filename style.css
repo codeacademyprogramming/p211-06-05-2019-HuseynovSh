@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container {
+    margin: 20px 20px;
+}
+
+.main {
+    position: relative;
+    margin: 30px 0;
+    width: 200px;
+    height: 60px;
+    background-color: blue;
+    display: inline-block;
+}
+
+/* ****************************************** */
+
+.a {
+    position: absolute;
+    background-color: red;
+    height: 0;
+    width: 100%;
+    opacity: 0;
+    left: 0;
+    bottom: 0;
+    transition: all .5s ease;
+}
+
+.main:hover .a {
+    opacity: 1;
+    height: 100%;
+}
+
+/* ********************************************* */
+
+.b {
+    position: absolute;
+    background-color: red;
+    height: 0;
+    width: 100%;
+    opacity: 0;
+    left: 0;
+    top: 0;
+    transition: all .5s ease;
+}
+
+.main:hover .b {
+    opacity: 1;
+    height: 100%;
+}
+
+/* ********************************************* */
+
+.c {
+    position: absolute;
+    background-color: red;
+    height: 100%;
+    width: 0;
+    opacity: 0;
+    left: 0;
+    transition: all .5s ease;
+}
+
+.main:hover .c {
+    opacity: 1;
+    width: 100%;
+}
+
+/* ********************************************* */
+
+.d {
+    position: absolute;
+    background-color: red;
+    height: 100%;
+    width: 0;
+    opacity: 0;
+    right: 0;
+    transition: all .5s ease;
+}
+
+.main:hover .d {
+    opacity: 1;
+    width: 100%;
+}
+
+/* ********************************************* */
+
+.e-1 {
+    position: absolute;
+    background-color: red;
+    height: 0;
+    width: 100%;
+    opacity: 0;
+    top: 0;
+    transition: all .5s ease;
+}
+
+/*  */
+
+.main:hover .e-1 {
+    opacity: 1;
+    height: 50%;
+}
+
+.main:hover .e-2 {
+    opacity: 1;
+    height: 50%;
+}
+
+/*  */
+
+.e-2 {
+    position: absolute;
+    background-color: red;
+    height: 0;
+    width: 100%;
+    opacity: 0;
+    bottom: 0;
+    transition: all .5s ease;
+}
+
+/* ********************************************* */
+
+.f-1 {
+    position: absolute;
+    background-color: red;
+    height: 0;
+    width: 100%;
+    opacity: 0;
+    top: 50%;
+    transition: all .5s ease;
+}
+
+/*  */
+
+.main:hover .f-1 {
+    opacity: 1;
+    height: 50%;
+}
+
+.main:hover .f-2 {
+    opacity: 1;
+    height: 50%;
+}
+
+/*  */
+
+.f-2 {
+    position: absolute;
+    background-color: red;
+    height: 0;
+    width: 100%;
+    opacity: 0;
+    bottom: 50%;
+    transition: all .5s ease;
+}
+
+/* ********************************************* */
+
+.g-1 {
+    position: absolute;
+    background-color: red;
+    height: 100%;
+    width: 0;
+    opacity: 0;
+    left: 0;
+    transition: all .5s ease;
+}
+
+/*  */
+
+.main:hover .g-1 {
+    opacity: 1;
+    width: 50%;
+}
+
+.main:hover .g-2 {
+    opacity: 1;
+    width: 50%;
+}
+
+/*  */
+
+.g-2 {
+    position: absolute;
+    background-color: red;
+    height: 100%;
+    width: 0;
+    opacity: 0;
+    right: 0;
+    transition: all .5s ease;
+}
+
+/* ********************************************* */
+
+.h-1 {
+    position: absolute;
+    background-color: red;
+    height: 100%;
+    width: 0;
+    opacity: 0;
+    left: 50%;
+    transition: all .5s ease;
+}
+
+/*  */
+
+.main:hover .h-1 {
+    opacity: 1;
+    width: 50%;
+}
+
+.main:hover .h-2 {
+    opacity: 1;
+    width: 50%;
+}
+
+/*  */
+
+.h-2 {
+    position: absolute;
+    background-color: red;
+    height: 100%;
+    width: 0;
+    opacity: 0;
+    right: 50%;
+    transition: all .5s ease;
+}
+
+/* ********************************************* */
+
+.x-1 {
+    position: absolute;
+    background-color: red;
+    height: 0;
+    width: 0;
+    opacity: 0;
+    top: 50%;
+    right: 50%;
+    transition: all .5s ease;
+}
+
+/*  */
+
+.main:hover .x-1 {
+    opacity: 1;
+    width: 50%;
+    height: 50%;
+}
+
+.main:hover .x-2 {
+    opacity: 1;
+    width: 50%;
+    height: 50%;
+}
+
+/*  */
+
+.x-2 {
+    position: absolute;
+    background-color: red;
+    height: 0;
+    width: 0;
+    opacity: 0;
+    left: 50%;
+    bottom: 50%;
+    transition: all .5s ease;
+}
+
+/* ********************************************* */
+
